@@ -3,3 +3,4 @@ Npm version : 10.2.4
 Instalaciones necesaria: npm install express ejs mysql2 sequelize body-parser
 creacion de la carpeta views
 creacion de la carpeta routes
+creacion de la carpeta models
