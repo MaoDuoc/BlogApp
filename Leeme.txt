@@ -5,3 +5,5 @@ creacion de la carpeta views
 creacion de la carpeta routes
 creacion de la carpeta models
 creacion de la carpeta public
+
+Base de datos MySQL: blogApp
