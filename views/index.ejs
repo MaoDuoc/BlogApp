@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog App NMB</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<section>
+    <div class="container">
+        <h1>Blog App NMB</h1>
+        <div class="post-form">
+            <form action="/add-post" method="POST">
+                <input type="text" name="title" placeholder="Titulo" required>
+                <textarea name="content" placeholder="Agrega tu post" required></textarea>
+                <button type="submit">Agregar Post</button>
+            </form>
+        </div>
+        <ul class="post-list">
+            <% posts.forEach(post => { %>
+                <li>
+                    <h2><a href="/post/<%= post.id %>"><%= post.title %></a></h2>
+                    <p><%= post.content.slice(0, 100) %>...</p>
+                    <form action="/delete-post/<%= post.id %>" method="POST" style="display:inline;">
+                        <button class="delete-button" type="submit">Eliminar</button>
+                    </form>
+                </li>
+            <% }) %>
+        </ul>
+    </div>
+</section>
+<section>
+    <footer>
+        <div class="social-links" name="footer">
+            <a href="https://www.facebook.com" target="_blank">Facebook</a> | 
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+    </footer>
+</section>     
+</body>
+</html>
