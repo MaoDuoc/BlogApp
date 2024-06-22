@@ -21,11 +21,12 @@ h1 {
 }
 
 .post-form {
-    background-color: #fff;
+    background: linear-gradient(rgb(0, 0, 0), rgb(0, 219, 226));
     padding: 36px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    border: 2px solid #00191a;
 }
 
 .post-form input, .post-form textarea {
@@ -58,11 +59,12 @@ h1 {
 }
 
 .post-list li {
-    background-color: #fff;
+    background: linear-gradient(rgb(0, 219, 226) , rgb(0, 0, 0));
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 2px solid #00f7ff;
 }
 
 .post-list li h2 {
@@ -88,6 +90,7 @@ h1 {
     padding: 8px 20px;
     background-color: #aa3904;
     color: #fff;
+    border: 1px solid #ffffff;
     text-decoration: none;
     border-radius: 20px;
     margin-left: 10px;
@@ -109,3 +112,4 @@ footer{
     border-radius: 20px;
     margin-left: 10px;
 }
+
