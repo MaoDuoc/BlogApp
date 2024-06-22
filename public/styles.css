@@ -41,16 +41,18 @@ h1 {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #ffee00;
-    color: #000000;
+    background: linear-gradient(rgb(255, 153, 1) , rgb(0, 0, 0));
+    color: #00b6bd;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
+    font-weight: bold;
 }
 
 .post-form button:hover {
-    background-color: #df9902;
+    background: linear-gradient(rgb(0, 219, 226) , rgb(0, 0, 0));
+    color: #04f7ff;
 }
 
 .post-list {
@@ -107,8 +109,10 @@ footer{
 
 .social-links{
     display: inline-block;
+    color: #ddd;
     padding: 10px 80px;
-    background-color: #8cffc0;
+    background-color: #06a6ac;
+    border: 2px #002127;
     text-decoration: none;
     border-radius: 20px;
     margin-left: 10px;
