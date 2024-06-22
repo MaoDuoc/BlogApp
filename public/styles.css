@@ -72,12 +72,13 @@ h1 {
 }
 
 .post-list li p {
-    margin-bottom: 0;
+    color: #ffffff;
+    margin-bottom: 5;
 }
 
 .post-list li a {
     text-decoration: none;
-    color: #075500;
+    color: #002127;
     font-weight: bold;
 }
 
@@ -88,7 +89,7 @@ h1 {
 .delete-button {
     display: inline-block;
     padding: 8px 20px;
-    background-color: #aa3904;
+    background-color: #e05616;
     color: #fff;
     border: 1px solid #ffffff;
     text-decoration: none;
