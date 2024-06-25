@@ -8,3 +8,5 @@ creacion de la carpeta public
 creacion de la carpeta controllers
 
 Base de datos MySQL: blogApp
+
+conectado!
