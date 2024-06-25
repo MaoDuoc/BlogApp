@@ -78,3 +78,18 @@ h1 {
 .back-link a:hover {
     background-color: #df9902;
 }
+
+footer{
+    text-align: center;
+}
+
+.social-links{
+    display: inline-block;
+    color: #ddd;
+    padding: 10px 80px;
+    background-color: #df9902;
+    border: 2px #002127;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-left: 10px;
+}
